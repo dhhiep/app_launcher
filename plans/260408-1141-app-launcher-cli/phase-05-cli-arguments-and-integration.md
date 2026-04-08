@@ -8,7 +8,7 @@
 ## Overview
 
 - **Priority:** P1
-- **Status:** Pending
+- **Status:** Complete
 - **Effort:** 3h
 - CLI entry point with commander. Supports direct launch/stop via flags or interactive TUI mode. npm bin entry point.
 

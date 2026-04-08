@@ -8,7 +8,7 @@
 ## Overview
 
 - **Priority:** P1
-- **Status:** Pending
+- **Status:** Complete
 - **Effort:** 5h
 - Ink (React) TUI with two views: workspace tree (multi-select) and status table (task-manager). Tab toggles views. Remembers last selection.
 

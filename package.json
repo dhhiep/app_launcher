@@ -1,0 +1,26 @@
+{
+  "name": "@hieepjddinh/app-launcher",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "app-launcher": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "postbuild": "TMP=$(mktemp) && echo '#!/usr/bin/env node' | cat - dist/cli.js > \"$TMP\" && mv \"$TMP\" dist/cli.js && chmod +x dist/cli.js",
+    "dev": "tsx src/cli.ts",
+    "start": "node dist/cli.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "commander": "^12.0.0",
+    "ink": "^5.0.0",
+    "react": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "@types/react": "^18.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.4.0"
+  }
+}

@@ -5,13 +5,13 @@ CLI tool to launch, monitor, and stop multiple dev apps across workspaces. Inter
 ## Install
 
 ```bash
-npm install -g @hiep/app-launcher
+npm install -g @hieepjddinh/app-launcher
 ```
 
 Or run directly:
 
 ```bash
-npx @hiep/app-launcher
+npx @hieepjddinh/app-launcher
 ```
 
 ## Setup

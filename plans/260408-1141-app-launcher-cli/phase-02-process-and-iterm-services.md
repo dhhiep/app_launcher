@@ -8,7 +8,7 @@
 ## Overview
 
 - **Priority:** P1
-- **Status:** Pending
+- **Status:** Complete
 - **Effort:** 4h
 - Implement process lifecycle (launch/stop/track) and iTerm2 window/tab/pane management via AppleScript.
 

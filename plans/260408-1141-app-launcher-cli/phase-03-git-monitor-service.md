@@ -8,7 +8,7 @@
 ## Overview
 
 - **Priority:** P2
-- **Status:** Pending
+- **Status:** Complete
 - **Effort:** 2h
 - Git status monitoring per app: branch name, ahead/behind remote, dirty state. Cached with TTL.
 

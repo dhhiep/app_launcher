@@ -8,7 +8,7 @@
 ## Overview
 
 - **Priority:** P1
-- **Status:** Pending
+- **Status:** Complete
 - **Effort:** 2h
 - Setup TypeScript + Ink project, create types, implement apps.json config loader with variable interpolation, state manager with last selection.
 
@@ -49,7 +49,7 @@
 1. Create `package.json`:
    ```json
    {
-     "name": "@hiep/app-launcher",
+     "name": "@hieepjddinh/app-launcher",
      "version": "0.1.0",
      "type": "module",
      "bin": { "app-launcher": "./dist/cli.js" },
@@ -85,13 +85,13 @@
      port: number;
      tab?: string;          // "" = new tab, "1_1" = pane position
    }
-   
+
    export interface Workspace {
      name: string;
      root_path: string;
      apps: AppConfig[];
    }
-   
+
    export interface AppStatus {
      app: AppConfig;
      workspace: Workspace;
@@ -103,7 +103,7 @@
      behind: number;
      dirty: boolean;
    }
-   
+
    export interface LauncherState {
      processes: Record<string, { pid: number; port: number; launchedAt: string }>;
      lastSelection: string[];  // ["workspace_1/backend_1", ...]

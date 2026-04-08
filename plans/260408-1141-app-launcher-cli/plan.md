@@ -1,7 +1,7 @@
 ---
 title: "App Launcher CLI Tool"
 description: "TypeScript CLI with Ink TUI for managing multiple dev apps across workspaces with iTerm2 split panes"
-status: pending
+status: complete
 priority: P1
 effort: 16h
 branch: main
@@ -9,6 +9,7 @@ tags: [cli, typescript, tui, devtools, npm]
 blockedBy: []
 blocks: []
 created: 2026-04-08
+completed: 2026-04-08
 ---
 
 # App Launcher CLI Tool
@@ -53,11 +54,11 @@ app-launcher/
 
 | Phase | Name | Status | Effort |
 |-------|------|--------|--------|
-| 1 | [Project Setup & Config](./phase-01-project-setup-and-config.md) | Pending | 2h |
-| 2 | [Process & iTerm2 Services](./phase-02-process-and-iterm-services.md) | Pending | 4h |
-| 3 | [Git Monitor Service](./phase-03-git-monitor-service.md) | Pending | 2h |
-| 4 | [TUI Interface](./phase-04-tui-interface.md) | Pending | 5h |
-| 5 | [CLI Arguments & Integration](./phase-05-cli-arguments-and-integration.md) | Pending | 3h |
+| 1 | [Project Setup & Config](./phase-01-project-setup-and-config.md) | Complete | 2h |
+| 2 | [Process & iTerm2 Services](./phase-02-process-and-iterm-services.md) | Complete | 4h |
+| 3 | [Git Monitor Service](./phase-03-git-monitor-service.md) | Complete | 2h |
+| 4 | [TUI Interface](./phase-04-tui-interface.md) | Complete | 5h |
+| 5 | [CLI Arguments & Integration](./phase-05-cli-arguments-and-integration.md) | Complete | 3h |
 
 ## Dependencies
 
@@ -76,4 +77,4 @@ app-launcher/
 6. **State file** — `~/.app-launcher/state.json` persists PIDs + last selection
 7. **Remember last selection** — State file stores last selected apps; auto-checked on TUI startup
 8. **Dashboard mode** — TUI stays open after launch as live status dashboard (Ctrl+C to quit)
-9. **npm package** — `npx @hiep/app-launcher` or `npm i -g` for team distribution
+9. **npm package** — `npx @hieepjddinh/app-launcher` or `npm i -g` for team distribution

@@ -13,7 +13,7 @@ App Launcher solves this by providing a CLI tool with an interactive TUI to sele
 - **Terminal:** iTerm2 (macOS) + tmux fallback (Linux)
 - **Process tracking:** Node.js child_process, net module
 - **Git monitoring:** subprocess (git CLI)
-- **Distribution:** npm package (`npm i -g @hiep/app-launcher`)
+- **Distribution:** npm package (`npm i -g @hieepjddinh/app-launcher`)
 
 ## Features
 

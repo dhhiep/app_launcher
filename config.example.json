@@ -1,0 +1,56 @@
+{
+  "workspaces": [
+    {
+      "workspace_1": {
+        "root_path": "/path/to/workspace_1",
+        "apps": [
+          {
+            "name": "backend_1",
+            "command": "rails -s -p ${port}",
+            "relative_path": "backend_1_project",
+            "port": 3000,
+            "tab": "1_1"
+          },
+          {
+            "name": "backend_2",
+            "command": "rails -s -p ${port}",
+            "relative_path": "backend_2_project",
+            "port": 3001,
+            "tab": "2_1"
+          },
+          {
+            "name": "frontend_1",
+            "command": "npm start",
+            "relative_path": "frontend_1_project",
+            "port": 8080,
+            "tab": "1_2"
+          },
+          {
+            "name": "frontend_2",
+            "command": "npm start",
+            "relative_path": "frontend_2_project",
+            "port": 8081,
+            "tab": "2_2"
+          }
+        ]
+      },
+      "workspace_2": {
+        "root_path": "/path/to/workspace_2",
+        "apps": [
+          {
+            "name": "mobile_1",
+            "command": "npm start",
+            "relative_path": "mobile_1_project",
+            "port": 8082
+          },
+          {
+            "name": "mobile_2",
+            "command": "npm start",
+            "relative_path": "mobile_2_project",
+            "port": 8083
+          }
+        ]
+      }
+    }
+  ]
+}

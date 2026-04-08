@@ -59,7 +59,7 @@ publish_npm() {
         echo -e "${YELLOW}Publishing v$version to npm...${NC}"
         cd "$PROJECT_ROOT"
         npm publish --access public
-        echo -e "${GREEN}✓ Published @hiep/app-launcher@$version to npm${NC}"
+        echo -e "${GREEN}✓ Published @hieepjddinh/app-launcher@$version to npm${NC}"
     fi
 }
 
